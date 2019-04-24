@@ -1,15 +1,17 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <title>Basic ToDo</title>
 
-    <title>ToDo APP</title>
+        <!-- CSS And JavaScript -->
+    </head>
 
-</head>
-<body>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Navbar Contents -->
+            </nav>
+        </div>
 
-    <div>
-        @yeild ('content')
-    </div>
-
-</body>
+        @yield('content')
+    </body>
 </html>
